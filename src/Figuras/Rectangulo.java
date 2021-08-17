@@ -8,6 +8,8 @@ public class Rectangulo {
 		this.alto=alto;
 	}
 	
-	
+	public double getPerometro() {
+		return this.alto * 2 + this.ancho * 2 ; 
+	} 
 	
 }
