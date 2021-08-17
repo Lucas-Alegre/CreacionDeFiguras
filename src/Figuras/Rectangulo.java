@@ -16,5 +16,9 @@ public class Rectangulo {
 		return this.alto * 2 + this.ancho * 2 ; 
 	} 
 	//Prueba
+	public double getPerometroooo() {
+		return this.alto * 2 + this.ancho * 2 ; 
+	} 
+	//Prueba
 	
 }
