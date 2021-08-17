@@ -12,6 +12,8 @@ public class Rectangulo {
 		return "Rectangulo [ancho=" + ancho + ", alto=" + alto + "]";
 	}
 	
-	
+	public double getPerometro() {
+		return this.alto * 2 + this.ancho * 2 ; 
+	} 
 	
 }
